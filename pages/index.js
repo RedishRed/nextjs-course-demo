@@ -82,7 +82,7 @@ export async function getStaticProps() {
     // number of seconds next js will wait until it regenerates this page for an incoming request.
     // 1 second until revalidate.
     // this depends on your data.
-    revalidate: 1,
+    revalidate: 60,
   };
 }
 
